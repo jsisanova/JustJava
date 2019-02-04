@@ -1,14 +1,29 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Just Java</string>
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name_input">Name</string>
+    <!--header text and list of toppings [CHAR LIMIT=20] -->
     <string name="toppings">Toppings</string>
-    <string name="whippedCream">Whipped cream</string>
-    <string name="quantityName">Quantity</string>
-    <string name="quantityValue">2</string>
-    <string name="orderButton">Order</string>
-    <!--<string name="orderSummary">Order Summary</string>
-    <string name="priceValue">0 €</string>               -->
+    <string name="whipped_cream">Whipped cream</string>
+    <string name="chocolate">Chocolate</string>
+    <!--quantity header and value [CHAR LIMIT=20]-->
+    <string name="quantity_name">Quantity</string>
+    <string name="quantity_value">2</string>
+    <!-- <string name="order_summary">Order Summary</string>
+     <string name="price_value">0 €</string> -->
     <string name="plus">+</string>
     <string name="minus">-</string>
-    <string name="chocolate">Chocolate</string>
-    <string name="nameInput">Name</string>
+    <string name="order_button">Order</string>
+    <!--order summary text [CHAR LIMIT=NONE]-->
+    <string name="just_java_order_for">JustJava order for </string>
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="order_summary_add_whipped_cream">Add whipped cream?: <xliff:g id="hasWhippedCream" example="false">%b</xliff:g></string>
+    <string name="order_summary_add_chocolate">Add chocolate?: <xliff:g id="hasChocolate" example="false">%b</xliff:g></string>
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+    <string name="order_summary_price">Total: <xliff:g id="price" example="0">%s</xliff:g></string>
+    <string name="thank_you">Thank you!</string>
+    <!--toast messages-->
+    <string name="more_than_100_coffees">You cannot order more than 100 coffees</string>
+    <string name="less_than_1_coffee">You cannot order less than 1 coffee</string>
 </resources>
